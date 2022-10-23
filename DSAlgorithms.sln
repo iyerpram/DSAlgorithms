@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "src\Console\Console.csproj", "{0DA4C5B2-2560-4E95-986A-D63267BB8CEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A66BF2F2-F72B-4301-BD2A-C05DE930589A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AFA0377B-0260-4F8D-A69B-5BA3EC983951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{2B20479E-4ED5-4788-AD48-2A243A862EC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA4C5B2-2560-4E95-986A-D63267BB8CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA4C5B2-2560-4E95-986A-D63267BB8CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA4C5B2-2560-4E95-986A-D63267BB8CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA4C5B2-2560-4E95-986A-D63267BB8CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B20479E-4ED5-4788-AD48-2A243A862EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B20479E-4ED5-4788-AD48-2A243A862EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B20479E-4ED5-4788-AD48-2A243A862EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B20479E-4ED5-4788-AD48-2A243A862EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DA4C5B2-2560-4E95-986A-D63267BB8CEB} = {A66BF2F2-F72B-4301-BD2A-C05DE930589A}
+		{2B20479E-4ED5-4788-AD48-2A243A862EC9} = {A66BF2F2-F72B-4301-BD2A-C05DE930589A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB4168C2-2EF0-42BE-9396-68C021CDE512}
+	EndGlobalSection
+EndGlobal
